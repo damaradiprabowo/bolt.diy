@@ -19,7 +19,8 @@ import * as Tooltip from '@radix-ui/react-tooltip';
 import styles from './BaseChat.module.scss';
 import { ExportChatButton } from '~/components/chat/chatExportAndImport/ExportChatButton';
 import { ImportButtons } from '~/components/chat/chatExportAndImport/ImportButtons';
-import { ExamplePrompts } from '~/components/chat/ExamplePrompts';
+
+// import { ExamplePrompts } from '~/components/chat/ExamplePrompts';
 import GitCloneButton from './GitCloneButton';
 
 import FilePreview from './FilePreview';
@@ -28,7 +29,8 @@ import { SpeechRecognitionButton } from '~/components/chat/SpeechRecognition';
 import type { ProviderInfo } from '~/types/model';
 import { ScreenshotStateManager } from './ScreenshotStateManager';
 import { toast } from 'react-toastify';
-import StarterTemplates from './StarterTemplates';
+
+// import StarterTemplates from './StarterTemplates';
 import type { ActionAlert } from '~/types/actions';
 import ChatAlert from './ChatAlert';
 import type { ModelInfo } from '~/lib/modules/llm/types';
@@ -299,10 +301,16 @@ export const BaseChat = React.forwardRef<HTMLDivElement, BaseChatProps>(
                   You can just fucking build things!
                 </h1>
                 <p className="text-md lg:text-xl mb-8 text-bolt-elements-textSecondary animate-fade-in animation-delay-200">
-                stop being a lil bitch and start building. idk why you're sitting there waiting for the stars to align or for some divine sign to bless your mediocre existence. afaict, the universe doesn't give a shit about your excuses. it's just vibing, and you're over here like "but what if i fail?" bro, failure is just success in a trench coat. it's all part of the grind.
+                  stop being a lil bitch and start building. idk why you're sitting there waiting for the stars to align
+                  or for some divine sign to bless your mediocre existence. afaict, the universe doesn't give a shit
+                  about your excuses. it's just vibing, and you're over here like "but what if i fail?" bro, failure is
+                  just success in a trench coat. it's all part of the grind.
                 </p>
                 <p className="text-md lg:text-xl mb-8 text-bolt-elements-textSecondary animate-fade-in animation-delay-200">
-                so yeah, build the thing. or don't. but if you don't, you're basically letting your potential rot in the fridge next to that takeout you forgot about. be real, you're not gonna die if it sucks. you're just gonna cringe, learn, and maybe accidentally create something that makes someone else go "holy shit, this rules."
+                  so yeah, build the thing. or don't. but if you don't, you're basically letting your potential rot in
+                  the fridge next to that takeout you forgot about. be real, you're not gonna die if it sucks. you're
+                  just gonna cringe, learn, and maybe accidentally create something that makes someone else go "holy
+                  shit, this rules."
                 </p>
               </div>
             )}
