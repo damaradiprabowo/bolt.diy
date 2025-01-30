@@ -296,21 +296,19 @@ export const BaseChat = React.forwardRef<HTMLDivElement, BaseChatProps>(
         <div ref={scrollRef} className="flex flex-col lg:flex-row overflow-y-auto w-full h-full">
           <div className={classNames(styles.Chat, 'flex flex-col flex-grow lg:min-w-[var(--chat-min-width)] h-full')}>
             {!chatStarted && (
-              <div id="intro" className="mt-[16vh] max-w-chat mx-auto text-center px-4 lg:px-0">
+              <div id="intro" className="mt-[8vh] max-w-chat mx-auto text-center px-4 lg:px-0">
                 <h1 className="text-3xl lg:text-6xl font-bold text-bolt-elements-textPrimary mb-4 animate-fade-in">
                   You can just fucking build things!
                 </h1>
                 <p className="text-md lg:text-xl mb-8 text-bolt-elements-textSecondary animate-fade-in animation-delay-200">
-                  stop being a lil bitch and start building. idk why you're sitting there waiting for the stars to align
-                  or for some divine sign to bless your mediocre existence. afaict, the universe doesn't give a shit
-                  about your excuses. it's just vibing, and you're over here like "but what if i fail?" bro, failure is
-                  just success in a trench coat. it's all part of the grind.
-                </p>
-                <p className="text-md lg:text-xl mb-8 text-bolt-elements-textSecondary animate-fade-in animation-delay-200">
-                  so yeah, build the thing. or don't. but if you don't, you're basically letting your potential rot in
-                  the fridge next to that takeout you forgot about. be real, you're not gonna die if it sucks. you're
-                  just gonna cringe, learn, and maybe accidentally create something that makes someone else go "holy
-                  shit, this rules."
+                  stop being a lil bitch. let's get REAL: we're all temporary patterns in an infinite void, 
+                  so your fear of failure is literally cosmic comedy. you think the universe gives a fuck 
+                  about your self-doubt? it's busy exploding stars and shit. you're not gonna die if it sucks - 
+                  you're gonna die ANYWAY, so might as well make some noise while you're here. 
+                  half-assing is just whole-assing nothing. either go so hard you scare yourself or stay in bed 
+                  watching other people live. your call. but remember: when you're dead, nobody's gonna care about 
+                  the times you failed - they'll only remember what you BUILT. so build something worth haunting, 
+                  or don't build at all.
                 </p>
               </div>
             )}
