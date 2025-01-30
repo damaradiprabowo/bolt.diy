@@ -301,14 +301,13 @@ export const BaseChat = React.forwardRef<HTMLDivElement, BaseChatProps>(
                   You can just fucking build things!
                 </h1>
                 <p className="text-md lg:text-xl mb-8 text-bolt-elements-textSecondary animate-fade-in animation-delay-200">
-                  stop being a lil bitch. let's get REAL: we're all temporary patterns in an infinite void, 
-                  so your fear of failure is literally cosmic comedy. you think the universe gives a fuck 
-                  about your self-doubt? it's busy exploding stars and shit. you're not gonna die if it sucks - 
-                  you're gonna die ANYWAY, so might as well make some noise while you're here. 
-                  half-assing is just whole-assing nothing. either go so hard you scare yourself or stay in bed 
-                  watching other people live. your call. but remember: when you're dead, nobody's gonna care about 
-                  the times you failed - they'll only remember what you BUILT. so build something worth haunting, 
-                  or don't build at all.
+                  stop being a lil bitch. let's get REAL: we're all temporary patterns in an infinite void, so your fear
+                  of failure is literally cosmic comedy. you think the universe gives a fuck about your self-doubt? it's
+                  busy exploding stars and shit. you're not gonna die if it sucks - you're gonna die ANYWAY, so might as
+                  well make some noise while you're here. half-assing is just whole-assing nothing. either go so hard
+                  you scare yourself or stay in bed watching other people live. your call. but remember: when you're
+                  dead, nobody's gonna care about the times you failed - they'll only remember what you BUILT. so build
+                  something worth haunting, or don't build at all.
                 </p>
               </div>
             )}
